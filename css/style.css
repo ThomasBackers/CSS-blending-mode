@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 7rem;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    mix-blend-mode: difference;
+    color: #fff;
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+}
+
+div:nth-child(1) {
+    background-color: #000;
+}
+
+div:nth-child(2) {
+    background-color: #fff;
+}
