@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
-h1 {
+h1, p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 7rem;
-    position: fixed;
-    top: 50%;
-    left: 25%;
     mix-blend-mode: difference;
-    /*color: #fff;*/
+    color: transparent;
+    
+}
+
+h1 {
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
     background-image: url("../img/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
     background-size:contain;
+    font-size: 7rem;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+}
+
+p {
+    color: #5C335A;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 55%;
+    left: 25%;
+    width: 50%;
 }
 
 div {
